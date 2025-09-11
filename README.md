@@ -1,7 +1,5 @@
 # AB-Testing-Advertising-Optimization
 
-[Hypothesis testing to see the campaign advertise results on customers]
-
 # **1. Bối cảnh dự án**
 
 Một công ty đang muốn xác định hiệu quả của các chiến dịch quảng cáo đã tiến hành A/B Testing. Trong đó, người dùng được chia làm 2 nhóm:
