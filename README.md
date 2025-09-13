@@ -29,14 +29,12 @@ Cấu trúc dữ liệu chỉ bao gồm 1 bảng, với tổng số 58,101 dòng
 - **Most ads day:** Ngày xem nhiều quảng cáo nhất.
 - **Most ads hour:** Giờ xem nhiều quảng cáo nhất.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/12ee070a-1a27-4511-98ed-aae4bcd421b0/313ac903-bb9f-4ab6-8fd3-5c0967dd62c9/image.png)
+<img width="418" height="321" alt="Image" src="https://github.com/user-attachments/assets/39753b08-bf07-4762-a1f7-ed4eec8959e7" />
 
 # **3. Cấu trúc / Hướng phân tích**
 
 <aside>
-1️⃣
-
-Xác định cỡ mẫu tối thiểu cho việc kiểm định giả thuyết 
+1️⃣ Xác định cỡ mẫu tối thiểu cho việc kiểm định giả thuyết 
 
 </aside>
 
@@ -45,9 +43,7 @@ Xác định cỡ mẫu tối thiểu cho việc kiểm định giả thuyết
 **Phương pháp: Power Analysis**
 
 <aside>
-2️⃣
-
-Kiểm tra mối liên hệ giữa việc chạy quảng cáo và tỷ lệ chuyển đổi
+2️⃣ Kiểm tra mối liên hệ giữa việc chạy quảng cáo và tỷ lệ chuyển đổi
 
 </aside>
 
@@ -61,9 +57,7 @@ Kiểm tra mối liên hệ giữa việc chạy quảng cáo và tỷ lệ chuy
 - **Welch's t-test:** So sánh trung bình số quảng cáo đã xem (`total ads`) giữa hai nhóm để xem liệu nhóm “Converted” tiếp xúc với quảng cáo nhiều hơn nhóm “NOT Converted” hay không.
 
 <aside>
-3️⃣
-
-So sánh tỷ lệ chuyển đổi giữa nhóm thử nghiệm (AD) và nhóm đối chứng (PSA) 
+3️⃣ So sánh tỷ lệ chuyển đổi giữa nhóm thử nghiệm (AD) và nhóm đối chứng (PSA) 
 
 </aside>
 
@@ -76,9 +70,7 @@ So sánh tỷ lệ chuyển đổi giữa nhóm thử nghiệm (AD) và nhóm đ
 # 4. Phân tích
 
 <aside>
-💡
-
-Chi tiết về code phân tích và kiểm định giả thuyết đã được trình bày trong link Google Colab bên dưới, kèm theo giải thích chi tiết từng bước trong quá trình thực hiện. 
+💡 Chi tiết về code phân tích và kiểm định giả thuyết đã được trình bày trong link Google Colab bên dưới, kèm theo giải thích chi tiết từng bước trong quá trình thực hiện. 
 ⇒ Tại đây, em tập trung giải thích thêm về lý thuyết, hướng tiếp cận của mình, và tổng hợp các kết quả chính để làm rõ hơn nội dung phân tích.
 
 </aside>
@@ -92,7 +84,7 @@ Trong bài phân tích, các giá trị cố định sẽ được sử dụng x
 - **α = 0.05** (ý nghĩa thống kê)
 - **β = 0.02** (xác suất xảy ra lỗi loại II)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/12ee070a-1a27-4511-98ed-aae4bcd421b0/8bdde162-f4ee-4286-a874-e30965bff0ae/image.png)
+<img width="874" height="319" alt="Image" src="https://github.com/user-attachments/assets/c9016ca1-2f06-47dd-874a-857b2d264af2" />
 
 ## 4.1. Power Analysis
 
@@ -109,9 +101,7 @@ Power Analysis giúp đảm bảo rằng kiểm định được thiết kế c�
 - **Kích thước mẫu quá lớn:** gây tốn kém tài nguyên
 
 <aside>
-💡
-
-Trong trường hợp này, công ty đã chạy xong quảng cáo, Power Analysis sẽ được dùng để đánh giá liệu cỡ mẫu hiện tại có đủ lớn để phân tích kết quả chính xác hay không.
+💡 Trong trường hợp này, công ty đã chạy xong quảng cáo, Power Analysis sẽ được dùng để đánh giá liệu cỡ mẫu hiện tại có đủ lớn để phân tích kết quả chính xác hay không.
 
 </aside>
 
@@ -132,14 +122,12 @@ Cỡ mẫu tối thiểu cho bài phân tích là: 6526
 
 Em tiến hành random từ số liệu đã thu thập được sẵn và đạt được kết quả 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/12ee070a-1a27-4511-98ed-aae4bcd421b0/2e5db948-6d1a-40c8-836a-d39d7f24c20f/image.png)
+<img width="685" height="441" alt="Image" src="https://github.com/user-attachments/assets/30988612-be4f-454c-b0f7-6e87adb7b706" />
 
 ## **4.2. Chi-Square Test for Independence**
 
 <aside>
-💡
-
-Em sẽ sử dụng P-value để kiểm định giả thuyết:
+💡 Em sẽ sử dụng P-value để kiểm định giả thuyết:
 
 - **P-value > α**: Bác bỏ giả thuyết Ho, chấp Ha (kết quả có ý nghĩa thống kê)
 - **P-Value < α**:  Không đủ bằng chứng để bác bỏ Ho (không có ý nghĩa thống kê)
@@ -158,7 +146,7 @@ Em sẽ sử dụng P-value để kiểm định giả thuyết:
 
 ### Kết quả:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/12ee070a-1a27-4511-98ed-aae4bcd421b0/50667821-57fc-49b4-b110-a1dffcee3001/image.png)
+<img width="895" height="448" alt="Image" src="https://github.com/user-attachments/assets/4a8dce89-4ee7-4abe-83f4-903c8166aa6c" />
 
 ```python
 Chi-squared test statistic: 22.07895637710061
