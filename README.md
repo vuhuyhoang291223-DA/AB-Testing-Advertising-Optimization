@@ -201,6 +201,7 @@ Degrees of freedom: 23
 
 $$
 H_0: \sigma_1^2 = \sigma_2^2 \\
+
 H_A: \sigma_1^2 \neq \sigma_2^2 \\
 $$
 
@@ -225,6 +226,7 @@ Bác bỏ giả thuyết H0: Phương sai giữa các nhóm KHÔNG bằng nhau.
 
 $$
 H_0: \mu_{converted} = \mu_{not-converted} \\
+
 H_A: \mu_{converted} \neq \mu_{not-converted}
 $$
 
