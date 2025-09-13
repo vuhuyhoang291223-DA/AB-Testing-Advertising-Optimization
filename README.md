@@ -257,8 +257,8 @@ p-value: 6.580117929321791e-91
 **Mục đích:** Kiểm tra xem tỉ lệ chuyển đổi của 2 nhóm tổng thể có bằng nhau không?
 
 $$
-H_0: p_{ad} = p_{psa} \\
-H_A: p_{ad} \neq p_{psa}
+H_0: p_{ad} = p_{psa} \\ | 
+H_A: p_{ad} \neq p_{psa} \\
 $$
 
 - **p**ad = tỉ lệ chuyển đổi nhóm ad (experimental group)
