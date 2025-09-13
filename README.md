@@ -158,7 +158,7 @@ Degrees of freedom: 6
 
 - Tỉ lệ chuyển đổi cao nhất vào đầu tuần (Thứ Hai, Ba) - và giảm dần theo các ngày trong tuần và tăng lại vào Chủ nhật.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/12ee070a-1a27-4511-98ed-aae4bcd421b0/d63f9180-da4b-4e8a-9d47-fe5796705afd/image.png)
+<img width="880" height="529" alt="Image" src="https://github.com/user-attachments/assets/31607b02-f0b8-4607-b49c-79393dd38bc5" />
 
 ### 4.2.2. Đánh giá mối quan hệ giữa `most hour ads` và `converted`
 
@@ -169,7 +169,7 @@ Degrees of freedom: 6
 
 ### Kết quả:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/12ee070a-1a27-4511-98ed-aae4bcd421b0/7afa6712-e82e-472c-b65e-448d259b6973/image.png)
+<img width="1443" height="388" alt="Image" src="https://github.com/user-attachments/assets/e11fcf99-5372-47c3-89dc-c9d065d3f012" />
 
 ```python
 Chi-squared test statistic: 56.12570293427687
@@ -181,7 +181,7 @@ Degrees of freedom: 23
 
 - Tỉ lệ chuyển đổi tăng dần từ buổi trưa đến chiều vào cao nhất vào 15h-16h
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/12ee070a-1a27-4511-98ed-aae4bcd421b0/16e44a5f-82a0-4b3a-a263-999c0dfe9660/image.png)
+<img width="889" height="530" alt="Image" src="https://github.com/user-attachments/assets/2bddc49d-3598-4729-897e-119be9e4d847" />
 
 ## **4.3. T-Test: so sánh trung bình 2 tổng thể**
 
